@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://v2it.cn:3306/xqq
+    username: root
+    password: 199453win
+    druid:
+      db-type:
+logging:
+  level:
+    cn.v2it.springboothello.mapper: debug
